@@ -17,6 +17,8 @@
 Для того чтобы использовать tArass на системах GNU/Linux вам понадомиться собрать исполняемый файл из исходного кода.
 1. Установите библиотеку libxlsxwriter на основе этого [гайда](https://libxlsxwriter.github.io/getting_started.html#gsg_quick_start)
 2. С помощью `gcc` скомпилируйте исходный код: `cc tarass.c -o tarass -lxlsxwriter`
+
+Или же скачать готовый бинарный файл [отсюда]()
 ### MacOS
 Скоро...
 ## Планы
