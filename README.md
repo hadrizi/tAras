@@ -18,7 +18,7 @@
 1. Установите библиотеку libxlsxwriter на основе этого [гайда](https://libxlsxwriter.github.io/getting_started.html#gsg_quick_start)
 2. С помощью `gcc` скомпилируйте исходный код: `cc tarass.c -o tarass -lxlsxwriter`
 
-Или же скачать готовый бинарный файл [отсюда]()
+Или же скачать готовый бинарный файл [отсюда](https://drive.google.com/open?id=1hCn9LhWEFUkKGM7zfs0Zsrv3trkyr9Yk)
 ### MacOS
 Скоро...
 ## Планы
