@@ -1,0 +1,212 @@
+>> AFD-Pro print out    12-11-2019    15:30
+
+*** Begin of TRACE buffer **
+012F JNZ    010C                         AX=19F5  SI=0008  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0000  DS=19F5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0007  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  0  0  0  0  0 DX=0008  SP=FFFE  SS=19F5       +6 EA00
+010C MOV    DX,[BX+SI]                   AX=19F5  SI=0008  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0000  DS=19F5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0007  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  0  0  0  0  0 DX=0008  SP=FFFE  SS=19F5       +6 EA00
+010E ADD    AX,07D0                      AX=19F5  SI=0008  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0000  DS=19F5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0007  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  0  0  0  0  0 DX=0013  SP=FFFE  SS=19F5       +6 EA00
+0111 MOV    DS,AX                        AX=21C5  SI=0008  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0000  DS=19F5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0007  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  0  0  0  1  0 DX=0013  SP=FFFE  SS=19F5       +6 EA00
+0113 CMP    DX,000F                      AX=21C5  SI=0008  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0000  DS=21C5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0007  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  0  0  0  1  0 DX=0013  SP=FFFE  SS=19F5       +6 EA00
+0116 JG     011A                         AX=21C5  SI=0008  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0000  DS=21C5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0007  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  0  0  1  0  0 DX=0013  SP=FFFE  SS=19F5       +6 EA00
+011A CMP    DX,0063                      AX=21C5  SI=0008  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0000  DS=21C5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0007  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  0  0  1  0  0 DX=0013  SP=FFFE  SS=19F5       +6 EA00
+011D JL     0121                         AX=21C5  SI=0008  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0000  DS=21C5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0007  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  1  0  0  0  1 DX=0013  SP=FFFE  SS=19F5       +6 EA00
+0121 MOV    [BX+DI],DX                   AX=21C5  SI=0008  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0000  DS=21C5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0007  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  1  0  0  0  1 DX=0013  SP=FFFE  SS=19F5       +6 EA00
+0123 ADD    DI,0002                      AX=21C5  SI=0008  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0000  DS=21C5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0007  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  1  0  0  0  1 DX=0013  SP=FFFE  SS=19F5       +6 EA00
+0126 SUB    AX,07D0                      AX=21C5  SI=0008  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0002  DS=21C5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0007  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  0  0  0  0  0 DX=0013  SP=FFFE  SS=19F5       +6 EA00
+0129 MOV    DS,AX                        AX=19F5  SI=0008  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0002  DS=21C5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0007  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  0  0  0  1  0 DX=0013  SP=FFFE  SS=19F5       +6 EA00
+012B ADD    SI,0002                      AX=19F5  SI=0008  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0002  DS=19F5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0007  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  0  0  0  1  0 DX=0013  SP=FFFE  SS=19F5       +6 EA00
+012E DEC    CX                           AX=19F5  SI=000A  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0002  DS=19F5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0007  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  0  0  0  1  0 DX=0013  SP=FFFE  SS=19F5       +6 EA00
+012F JNZ    010C                         AX=19F5  SI=000A  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0002  DS=19F5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0006  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  0  0  0  1  0 DX=0013  SP=FFFE  SS=19F5       +6 EA00
+010C MOV    DX,[BX+SI]                   AX=19F5  SI=000A  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0002  DS=19F5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0006  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  0  0  0  1  0 DX=0013  SP=FFFE  SS=19F5       +6 EA00
+010E ADD    AX,07D0                      AX=19F5  SI=000A  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0002  DS=19F5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0006  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  0  0  0  1  0 DX=0015  SP=FFFE  SS=19F5       +6 EA00
+0111 MOV    DS,AX                        AX=21C5  SI=000A  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0002  DS=19F5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0006  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  0  0  0  1  0 DX=0015  SP=FFFE  SS=19F5       +6 EA00
+0113 CMP    DX,000F                      AX=21C5  SI=000A  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0002  DS=21C5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0006  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  0  0  0  1  0 DX=0015  SP=FFFE  SS=19F5       +6 EA00
+0116 JG     011A                         AX=21C5  SI=000A  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0002  DS=21C5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0006  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  0  0  1  1  0 DX=0015  SP=FFFE  SS=19F5       +6 EA00
+011A CMP    DX,0063                      AX=21C5  SI=000A  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0002  DS=21C5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0006  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  0  0  1  1  0 DX=0015  SP=FFFE  SS=19F5       +6 EA00
+011D JL     0121                         AX=21C5  SI=000A  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0002  DS=21C5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0006  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  1  0  0  1  1 DX=0015  SP=FFFE  SS=19F5       +6 EA00
+0121 MOV    [BX+DI],DX                   AX=21C5  SI=000A  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0002  DS=21C5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0006  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  1  0  0  1  1 DX=0015  SP=FFFE  SS=19F5       +6 EA00
+0123 ADD    DI,0002                      AX=21C5  SI=000A  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0002  DS=21C5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0006  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  1  0  0  1  1 DX=0015  SP=FFFE  SS=19F5       +6 EA00
+0126 SUB    AX,07D0                      AX=21C5  SI=000A  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0004  DS=21C5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0006  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  0  0  0  0  0 DX=0015  SP=FFFE  SS=19F5       +6 EA00
+0129 MOV    DS,AX                        AX=19F5  SI=000A  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0004  DS=21C5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0006  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  0  0  0  1  0 DX=0015  SP=FFFE  SS=19F5       +6 EA00
+012B ADD    SI,0002                      AX=19F5  SI=000A  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0004  DS=19F5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0006  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  0  0  0  1  0 DX=0015  SP=FFFE  SS=19F5       +6 EA00
+012E DEC    CX                           AX=19F5  SI=000C  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0004  DS=19F5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0006  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  0  0  0  1  0 DX=0015  SP=FFFE  SS=19F5       +6 EA00
+012F JNZ    010C                         AX=19F5  SI=000C  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0004  DS=19F5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0005  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  0  0  0  1  0 DX=0015  SP=FFFE  SS=19F5       +6 EA00
+010C MOV    DX,[BX+SI]                   AX=19F5  SI=000C  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0004  DS=19F5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0005  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  0  0  0  1  0 DX=0015  SP=FFFE  SS=19F5       +6 EA00
+010E ADD    AX,07D0                      AX=19F5  SI=000C  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0004  DS=19F5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0005  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  0  0  0  1  0 DX=0004  SP=FFFE  SS=19F5       +6 EA00
+0111 MOV    DS,AX                        AX=21C5  SI=000C  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0004  DS=19F5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0005  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  0  0  0  1  0 DX=0004  SP=FFFE  SS=19F5       +6 EA00
+0113 CMP    DX,000F                      AX=21C5  SI=000C  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0004  DS=21C5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0005  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  0  0  0  1  0 DX=0004  SP=FFFE  SS=19F5       +6 EA00
+0116 JG     011A                         AX=21C5  SI=000C  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0004  DS=21C5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0005  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  1  0  1  1  1 DX=0004  SP=FFFE  SS=19F5       +6 EA00
+0118 JMP    0126                         AX=21C5  SI=000C  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0004  DS=21C5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0005  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  1  0  1  1  1 DX=0004  SP=FFFE  SS=19F5       +6 EA00
+0126 SUB    AX,07D0                      AX=21C5  SI=000C  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0004  DS=21C5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0005  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  1  0  1  1  1 DX=0004  SP=FFFE  SS=19F5       +6 EA00
+0129 MOV    DS,AX                        AX=19F5  SI=000C  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0004  DS=21C5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0005  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  0  0  0  1  0 DX=0004  SP=FFFE  SS=19F5       +6 EA00
+012B ADD    SI,0002                      AX=19F5  SI=000C  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0004  DS=19F5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0005  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  0  0  0  1  0 DX=0004  SP=FFFE  SS=19F5       +6 EA00
+012E DEC    CX                           AX=19F5  SI=000E  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0004  DS=19F5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0005  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  0  0  0  0  0 DX=0004  SP=FFFE  SS=19F5       +6 EA00
+012F JNZ    010C                         AX=19F5  SI=000E  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0004  DS=19F5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0004  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  0  0  0  0  0 DX=0004  SP=FFFE  SS=19F5       +6 EA00
+010C MOV    DX,[BX+SI]                   AX=19F5  SI=000E  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0004  DS=19F5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0004  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  0  0  0  0  0 DX=0004  SP=FFFE  SS=19F5       +6 EA00
+010E ADD    AX,07D0                      AX=19F5  SI=000E  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0004  DS=19F5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0004  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  0  0  0  0  0 DX=0005  SP=FFFE  SS=19F5       +6 EA00
+0111 MOV    DS,AX                        AX=21C5  SI=000E  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0004  DS=19F5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0004  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  0  0  0  1  0 DX=0005  SP=FFFE  SS=19F5       +6 EA00
+0113 CMP    DX,000F                      AX=21C5  SI=000E  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0004  DS=21C5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0004  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  0  0  0  1  0 DX=0005  SP=FFFE  SS=19F5       +6 EA00
+0116 JG     011A                         AX=21C5  SI=000E  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0004  DS=21C5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0004  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  1  0  1  1  1 DX=0005  SP=FFFE  SS=19F5       +6 EA00
+0118 JMP    0126                         AX=21C5  SI=000E  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0004  DS=21C5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0004  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  1  0  1  1  1 DX=0005  SP=FFFE  SS=19F5       +6 EA00
+0126 SUB    AX,07D0                      AX=21C5  SI=000E  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0004  DS=21C5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0004  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  1  0  1  1  1 DX=0005  SP=FFFE  SS=19F5       +6 EA00
+0129 MOV    DS,AX                        AX=19F5  SI=000E  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0004  DS=21C5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0004  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  0  0  0  1  0 DX=0005  SP=FFFE  SS=19F5       +6 EA00
+012B ADD    SI,0002                      AX=19F5  SI=000E  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0004  DS=19F5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0004  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  0  0  0  1  0 DX=0005  SP=FFFE  SS=19F5       +6 EA00
+012E DEC    CX                           AX=19F5  SI=0010  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0004  DS=19F5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0004  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  0  0  1  0  0 DX=0005  SP=FFFE  SS=19F5       +6 EA00
+012F JNZ    010C                         AX=19F5  SI=0010  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0004  DS=19F5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0003  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  0  0  0  1  0 DX=0005  SP=FFFE  SS=19F5       +6 EA00
+010C MOV    DX,[BX+SI]                   AX=19F5  SI=0010  CS=19F5  Stack+0 0000
+                                         BX=0132  DI=0004  DS=19F5       +2 20CD
+                 OF DF IF SF ZF AF PF CF CX=0003  BP=0000  ES=19F5       +4 9FFF
+                  0  0  1  0  0  0  1  0 DX=0005  SP=FFFE  SS=19F5       +6 EA00
+  
