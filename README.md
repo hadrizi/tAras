@@ -12,7 +12,8 @@
 Полученый файл и есть файл трассировки. Далее вам нужно просто его указать как первый аргумент tArass. 
 ## Установка
 ### Windows
-Пока что невозможна из-за [бага](https://github.com/jmcnamara/libxlsxwriter/issues/255).
+[Бага](https://github.com/jmcnamara/libxlsxwriter/issues/255) решён <3
+Скачать бинарник можно [здесь](https://drive.google.com/file/d/16tQguszhfROxBM800INEaX_k48RkHxgF/view?usp=sharing).
 ### GNU/Linux
 Для того чтобы использовать tArass на системах GNU/Linux вам понадомиться собрать исполняемый файл из исходного кода.
 1. Установите библиотеку libxlsxwriter на основе этого [гайда](https://libxlsxwriter.github.io/getting_started.html#gsg_quick_start)
